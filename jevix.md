@@ -31,4 +31,27 @@ $sText = preg_replace('/<video>http:\/\/vk\.com\/(.*)<\/video>/Ui', '<iframe src
 
 Настройка Jevix из плагина
 --------------------------
-http://livestreet.ru/blog/questions/11584.html
+Управлять поведением **Jevix** из плагина можно двумя способами: переопределяя функцию считывания настроек в модуле `Text` или сами настройки `Jevix`.
+Переопределить функцию `JevixConfig` модуля `Text` можно так:
+~~~
+protected function JevixConfig()
+{
+parent::JevixConfig(); // выполняем родительскую функцию
+$aTags = array_keys($this->oJevix->tagsRules);
+$aTags[] = 'НовыйТег';
+$aTags[] = 'НовыйТег1';
+$this->oJevix->cfgAllowTags($aTags);
+$this->oJevix->cfgAllowTagParams('НовыйТег', array('title'));
+}
+~~~
+Переопределить настройки `Jevix` можно так:
+~~~
+$aAllowTags = Config::Get('jevix.default.cfgAllowTags'); // считываем массив разрешенных тегов
+$aAllowTags [] = 'НовыйТег'; // добавляем новый тег
+Config::Set('jevix.default.cfgAllowTags', array (array ($aAllowTags ))); // записываем новый массив
+$aAllowTagParams = Config::Get('jevix.default.cfgAllowTagParams'); // считываем массив разрешенных параметров
+$aAllowTagParams [] = array('НовыйТег', 
+    array('title' => '#text', 'width' => '#int')
+  );
+Config::Set('jevix.default.cfgAllowTagParams', $aAllowTagParams); // записываем новый массив
+~~~

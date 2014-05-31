@@ -44,7 +44,7 @@ Disallow: /settings/
 Disallow: /registration/
 Disallow: /login/
 Disallow: /tag/
-Host: livestreet.pro #Директива Host есть только у Яндекса. Указывается только имя домена
+Host: livestreet.net #Директива Host есть только у Яндекса. Указывается только имя домена
 
 User-agent: Mediapartners-Google* #Если вы используете Google Adsense
 Disallow:

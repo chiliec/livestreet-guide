@@ -45,4 +45,4 @@ $this -> Cache_Clean (Zend_Cache::CLEANING_MODE_MATCHING_TAG, array ('book_chang
 ------------------------------
 - [Dklab_Cache](http://dklab.ru/lib/Dklab_Cache/)
 - [Статья на Хабре](http://habrahabr.ru/post/57142/)
-- [Исходник модуля](https://github.com/livestreet/livestreet/blob/master/engine/modules/cache/Cache.class.php)
+- [Исходник модуля](https://github.com/livestreet/livestreet-framework/blob/master/classes/modules/cache/Cache.class.php)

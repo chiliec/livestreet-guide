@@ -1,4 +1,4 @@
-*Здесь будет полезная для разработчиков информация по LiveStreet CMS.*
+*Представленная здесь информация может оказаться полезной как для разработчиков плагинов и шаблонов, так и для владельцев сайтов на LiveStreet CMS. Исходный код всех текстов размещен на GitHub. **Пулл Реквесты приветствуются!***
 
 * Общие вопросы
     - [Введение](http://livestreet.net/guide/introduce)
@@ -16,7 +16,7 @@
 	- [Что проверить в плагине перед публикацией](http://livestreet.net/guide/check)
 * Разработка шаблонов
 	- [Стандарты верстки шаблонов](http://livestreet.net/guide/template)
-    - [Smarty](http://livestreet.net/guide/smarty)
+    - [Шаблонизатор Smarty](http://livestreet.net/guide/smarty)
 * Советы и трюки
     - [Robots.txt для LiveStreet CMS](http://livestreet.net/guide/robotstxt)
     - [Часто задаваемые вопросы](http://livestreet.net/guide/faq)

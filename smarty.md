@@ -30,6 +30,11 @@
 
 * Компонентная архитектура.
 
+##Полезные ссылки
+[Руководство по Smarty](http://www.smarty.net/docsv2/ru/)
+[Smarty для дизайнеров шаблонов](http://www.smarty.net/docsv2/ru/smarty.for.designers.tpl)
+[Smarty для программистов](http://www.smarty.net/docsv2/ru/smarty.for.programmers.tpl)
+
 ##Примеры использования Smarty в LiveStreet
 * [Новые возможности форматирования дат](http://livestreet.ru/blog/dev_documentation/3357.html)
 * [Вывод даты в прямом эфире](http://livestreet.ru/blog/2638.html)

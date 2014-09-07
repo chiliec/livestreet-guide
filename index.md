@@ -10,9 +10,11 @@
     - [Создание заготовки плагина](http://livestreet.net/guide/console)
     - [Выбор и использование IDE](http://livestreet.net/guide/ide)
     - [Введение в Git](http://livestreet.net/guide/git)
-    - [Настройка Jevix](http://livestreet.net/guide/jevix)
+	- [ORM в LiveStreet](http://livestreet.net/guide/orm)
+	- [Валидация данных](http://livestreet.net/guide/validate)
     - [Работа с базой данных](http://livestreet.net/guide/database)
     - [Кеширование в плагине](http://livestreet.net/guide/cache)
+	- [Настройка Jevix](http://livestreet.net/guide/jevix)
 	- [Что проверить в плагине перед публикацией](http://livestreet.net/guide/check)
 * Разработка шаблонов
 	- [Стандарты верстки шаблонов](http://livestreet.net/guide/template)

@@ -1,5 +1,5 @@
 #Валидация данных
-Валидация данных в LiveStreet осуществляется с помощью модуля (Validate)[https://github.com/livestreet/livestreet-framework/blob/master/classes/modules/validate/Validate.class.php], который поддерживает как обычную валидацию данных:
+Валидация данных в LiveStreet осуществляется с помощью модуля [Validate](https://github.com/livestreet/livestreet-framework/blob/master/classes/modules/validate/Validate.class.php), который поддерживает как обычную валидацию данных:
 ~~~
 if (!$this->Validate_Validate('url','http://livestreet.net')) {
 	var_dump($this->Validate_GetErrors());
@@ -8,11 +8,13 @@ if (!$this->Validate_Validate('url','http://livestreet.net')) {
 так и валидацию данных сущности:
 ~~~
 class PluginTest_ModuleMain_EntityTest extends Entity {
-	// Определяем правила валидации
-	// Каждый из внутренних массивов определяет свое правило валидации
+
+	/* 
+	 * Определяем правила валидации
+	 * Каждый из внутренних массивов определяет свое правило валидации
+	 */
 	protected $aValidateRules=array(
 		// Используем стандартный валидатор String
-		// Максимальная и минимальная длина для полей login и name
 		array('login, name','string','max'=>7,'min'=>'3'),
 		// Реализуем свою валидацию методом ValidateMy
 		array('title','my','on'=>'register'),

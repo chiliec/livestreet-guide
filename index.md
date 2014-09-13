@@ -15,6 +15,7 @@
     - [Работа с базой данных](http://livestreet.net/guide/database)
     - [Кеширование в плагине](http://livestreet.net/guide/cache)
 	- [Настройка Jevix](http://livestreet.net/guide/jevix)
+	- [Управление URL](http://livestreet.net/guide/rewrite)
 	- [Что проверить в плагине перед публикацией](http://livestreet.net/guide/check)
 * Разработка шаблонов
 	- [Стандарты верстки шаблонов](http://livestreet.net/guide/template)

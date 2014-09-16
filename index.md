@@ -25,3 +25,4 @@
     - [Часто задаваемые вопросы](http://livestreet.net/guide/faq)
     - [Перенос сайта на другой домен](http://livestreet.net/guide/transfer)
     - [Обратный порядок комментариев](http://livestreet.net/guide/inverse)
+	- [Отключить создание персонального блога](http://livestreet.net/guide/personal)

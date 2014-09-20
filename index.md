@@ -26,3 +26,4 @@
     - [Перенос сайта на другой домен](http://livestreet.net/guide/transfer)
     - [Обратный порядок комментариев](http://livestreet.net/guide/inverse)
 	- [Отключить создание персонального блога](http://livestreet.net/guide/personal)
+	- [Как разрешить все теги для администратора](http://livestreet.net/guide/allowtags)

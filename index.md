@@ -1,13 +1,14 @@
 * Общие вопросы
     - [Введение](http://livestreet.net/guide/introduce)
 	- [Стандарты написания кода LiveStreet](http://livestreet.net/guide/coding)
-    - [Описание ядра LiveStreet](http://livestreet.net/guide/core)
     - [Скринкасты для разработчиков](http://livestreet.net/guide/screencasts)
     - [Список Open Source плагинов](http://livestreet.net/guide/opensource)
 * Разработка плагинов
     - [Создание заготовки плагина](http://livestreet.net/guide/console)
     - [Выбор и использование IDE](http://livestreet.net/guide/ide)
     - [Введение в Git](http://livestreet.net/guide/git)
+	- [Описание ядра LiveStreet](http://livestreet.net/guide/core)
+	- [Контроллер (экшены)](http://livestreet.net/guide/actions)
 	- [ORM в LiveStreet](http://livestreet.net/guide/orm)
 	- [Валидация данных](http://livestreet.net/guide/validate)
     - [Работа с базой данных](http://livestreet.net/guide/database)

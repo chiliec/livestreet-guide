@@ -9,6 +9,7 @@
     - [Введение в Git](http://livestreet.net/guide/git)
 	- [Описание ядра LiveStreet](http://livestreet.net/guide/core)
 	- [Контроллер (экшены)](http://livestreet.net/guide/actions)
+	- [Модель (модули)](http://livestreet.net/guide/modules)
 	- [ORM в LiveStreet](http://livestreet.net/guide/orm)
 	- [Валидация данных](http://livestreet.net/guide/validate)
     - [Работа с базой данных](http://livestreet.net/guide/database)

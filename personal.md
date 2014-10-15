@@ -3,3 +3,7 @@
 ~~~
 $this->Blog_CreatePersonalBlog($oUser);
 ~~~
+Чтобы убрать возможность выбора уже отсутствующего персонального блога нужно удалить или закомментировать в `/templates/skin/названиеактивногошаблона/actions/ActionTopic/add.tpl` такую строку:
+~~~
+<option value="0">{$aLang.topic_create_blog_personal}</option>
+~~~

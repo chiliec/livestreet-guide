@@ -136,7 +136,7 @@ $config['components'] = [ 'ls-core', 'alert' ];
 {component 'alert' title='Warning' text='Some error message' mods='error'}
 ~~~
 
-#### Использование в плагинах
+### Использование в плагинах
 
 По умолчанию подключается компонент из шаблона приложения:
 ~~~smarty

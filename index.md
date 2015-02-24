@@ -8,6 +8,7 @@
     - [Выбор и использование IDE](http://livestreet.net/guide/ide)
     - [Введение в Git](http://livestreet.net/guide/git)
 	- [Описание ядра LiveStreet](http://livestreet.net/guide/core)
+	- [Компоненты](http://livestreet.net/guide/components)
 	- [Контроллер (экшены)](http://livestreet.net/guide/actions)
 	- [Модель (модули)](http://livestreet.net/guide/modules)
 	- [ORM в LiveStreet](http://livestreet.net/guide/orm)
